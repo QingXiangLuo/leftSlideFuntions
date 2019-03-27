@@ -1,0 +1,21 @@
+{
+  "name": "slide-left-delete",
+  "version": "1.0.0",
+  "description": "slide left delete",
+  "main": "dist/left-slide-delete.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development --colors",
+    "build": "webpack --mode=production -o dist/remember-scroll.min.js --colors"
+  },
+  "author": "qxl",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "core-js": "^3.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
